@@ -1,0 +1,145 @@
+@media (max-width: 1024px) {
+  .header__content {
+    gap: 30px;
+  }
+
+  .navbar__list {
+    gap: 15px;
+  }
+
+  .section__two-right {
+    grid-template-columns: 1fr;
+  }
+
+  .section__four-content {
+    grid-template-columns: 0.4fr 0.6fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .header__content {
+    flex-direction: column;
+  }
+
+  .navbar__list {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .section__one {
+    padding: 50px 0;
+  }
+
+  .section__one-title {
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .section__two-content {
+    grid-template-columns: 1fr;
+    gap: 50px;
+    padding: 50px 25px;
+  }
+
+  .section__two-title {
+    max-width: none;
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .section__two-right {
+    gap: 50px;
+  }
+
+  .two-information__text {
+    font-size: 12px;
+    line-height: 14px;
+  }
+
+  .two-information__title {
+    font-size: 36px;
+    line-height: 40px;
+  }
+
+  .section__three {
+    padding: 50px 0;
+  }
+
+  .section__three-content {
+    grid-template-columns: 1fr;
+  }
+
+  .section__three-left {
+    border-radius: 28px 28px 0 0;
+  }
+
+  .section__three-right {
+    border-radius: 0 0 28px 28px;
+  }
+
+  .section__three-title {
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .section__four-content {
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+
+  .section__four-title {
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .four-block {
+    gap: 30px;
+  }
+
+  .four-block__title {
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .section__five {
+    padding: 50px 0;
+  }
+
+  .section__five-content {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .section__five-title {
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .five-block__title {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .footer__content {
+    padding: 50px 0;
+  }
+
+  .footer__content-right {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 576px) {
+  .section__five-block {
+    padding: 20px 0;
+  }
+
+  .footer__content-right {
+    grid-template-columns: 1fr;
+  }
+
+  .four-block__information {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
